@@ -41,3 +41,7 @@ This project demonstrates how to:
 Calculate Fibonacci number.
 
 #### Query Params
+
+### Command for Load Test
+
+loadtest -n 1000 -c 200 --rps 100 "http://localhost:3000/?number=4"
